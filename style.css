@@ -1,0 +1,413 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0px;
+  height: auto;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  color: #4c545d;
+  font-size: 2.3em;
+  margin: 5% auto;
+}
+
+h2 {
+  font-weight: 600;
+  color: #4c545d;
+  font-size: 2em;
+  margin: 0 4%;
+}
+
+h3 {
+  font-weight: 600;
+  color: #4c545d;
+  font-size: 1rem;
+}
+
+p {
+  text-align: center;
+  color: #9fabb2;
+  max-width: 580px;
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 5% 12%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.HeaderContainer {
+  background: url("images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.HeaderContainer img {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn .button {
+  cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  padding: 1em 3.5em;
+  border: none;
+  border-radius: 30px;
+  text-shadow: 3px 4px 3px #969696;
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+}
+
+.btn .btn-iOS {
+  margin: 10px;
+  background: #26baa4;
+}
+
+.btn .btn-iOS:hover {
+  -webkit-box-shadow: 0 0 10px 0 #26baa4 inset, 0 0 10px 4px #26baa4;
+          box-shadow: 0 0 10px 0 #26baa4 inset, 0 0 10px 4px #26baa4;
+}
+
+.btn .btn-Mac {
+  margin: 10px;
+  background: #6173ff;
+}
+
+.btn .btn-Mac:hover {
+  -webkit-box-shadow: 0 0 10px 0 #6173ff inset, 0 0 10px 4px #6173ff;
+          box-shadow: 0 0 10px 0 #6173ff inset, 0 0 10px 4px #6173ff;
+}
+
+.MainContainerOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20%;
+}
+
+.MainContainerTwo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin-top: 10%;
+}
+
+.MainContainerTwo .LeftGrid {
+  margin: 10px;
+}
+
+.MainContainerTwo .LeftGrid .CompImg {
+  width: 90%;
+}
+
+.MainContainerTwo .RightGrid {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.MainContainerTwo .RightGrid p {
+  margin-bottom: 12%;
+}
+
+.MainContainerThree {
+  margin-top: 12%;
+}
+
+.MainContainerThree img {
+  margin: 10% 0;
+  width: 100%;
+}
+
+.MainContainerFour {
+  display: block;
+  margin-top: 12%;
+}
+
+.MainContainerFour p {
+  margin-bottom: 12%;
+}
+
+.MainContainerFive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  height: 70vh;
+}
+
+.MainContainerFive img {
+  max-width: 100%;
+}
+
+.MainContainerSix {
+  padding: 12% 5%;
+}
+
+.FooterContainer {
+  margin-top: 5%;
+  padding: 0 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #f5f6f8;
+  text-align: center;
+}
+
+.FooterContainer .Logo {
+  height: 70px;
+  width: 70px;
+  margin: 30px auto;
+}
+
+.FooterContainer ul {
+  -webkit-column-count: 1;
+          column-count: 1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.FooterContainer ul li {
+  font-size: 1.5em;
+  position: relative;
+  margin: 1.8rem auto;
+  color: #4c545d;
+}
+
+.FooterContainer ul li:hover {
+  color: #26baa4;
+  cursor: pointer;
+}
+
+.FooterContainer .socialIcons {
+  margin-top: 5%;
+}
+
+.FooterContainer .socialIcons a img {
+  margin: 0 20px 20px 0;
+  -webkit-filter: drop-shadow(8px 8px 10px gray);
+          filter: drop-shadow(8px 8px 10px gray);
+}
+
+@media screen and (min-width: 760px) {
+  h1 {
+    margin: 2% auto;
+  }
+  p {
+    font-size: 1em;
+    margin: 1.8% auto;
+  }
+  .HeaderContainer {
+    background: url("images/bg-header-desktop.png");
+  }
+  .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .MainContainerOne {
+    padding: 3%;
+  }
+  .MainContainerTwo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-top: 6%;
+  }
+  .MainContainerTwo .LeftGrid {
+    margin: 10px 0 10px;
+  }
+  .MainContainerTwo .LeftGrid .CompImg {
+    width: 100%;
+    margin-left: -9%;
+  }
+  .MainContainerTwo .RightGrid {
+    padding: 2em 1em 0em 6em;
+    text-align: left;
+    margin-top: 0;
+  }
+  .MainContainerTwo .RightGrid p {
+    font-size: 0.8em;
+    margin: 1em 1em 2em 0;
+    text-align: left;
+    width: 50%;
+  }
+  .MainContainerThree {
+    margin-top: 4%;
+  }
+  .MainContainerThree img {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 60%;
+  }
+  .MainContainerFour {
+    margin: 5% auto 0;
+    padding: 0 10%;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .MainContainerFour p {
+    font-size: 0.8em;
+    width: 80%;
+  }
+  .MainContainerFive {
+    margin: 0 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 40vh;
+  }
+  .MainContainerSix {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .FooterContainer {
+    margin-top: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    max-width: 100%;
+    margin: 8% auto 0;
+  }
+  .FooterContainer .Logo {
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+  }
+  .FooterContainer ul {
+    -webkit-column-count: 3;
+            column-count: 3;
+    text-align: left;
+    width: 50%;
+  }
+  .FooterContainer ul li {
+    margin: 0 0% 10%;
+    font-size: 1em;
+  }
+  .FooterContainer .socialIcons {
+    margin: 0;
+  }
+  .FooterContainer .socialIcons a img {
+    margin: 0 10px 0 0;
+    -webkit-filter: drop-shadow(8px 8px 10px gray);
+            filter: drop-shadow(8px 8px 10px gray);
+  }
+}
+/*# sourceMappingURL=style.css.map */
